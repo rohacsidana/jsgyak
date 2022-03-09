@@ -1,0 +1,39 @@
+article{
+    display: flex;
+    flex-direction: column;
+}
+#nagykep{
+  display: flex;
+  justify-content: center;
+}
+#fokep{
+  width: 60%;
+}
+#kepek img{
+  width: 90%;
+}
+#kepek div{
+    width: 33%;
+    flex: 0 0 33%;
+}
+#kepek {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#info div{
+    flex: 0 0 50%;
+}
+@media screen and (max-width: 600px) {
+  #kepek {
+    flex-direction: column;
+  }
+  #kepek img {
+    width: 100%;
+  }
+}
